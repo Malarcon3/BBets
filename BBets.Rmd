@@ -114,16 +114,21 @@ I've tried numerous values for the odds. I started off with 1 and it was too low
 
 # What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
 
+```{r}
+money=vector("numeric",0)
+for(i in c(1:1000)){
+  money[i]=(profit(29, 2, 637))
+}
+hist(money)
+```
+
+I started at the class size value of 35 which was too high. I then tried using the size value of 20 and 25 which was too low. Then I tried 27 was closer but still too low. To manipulate the odds the class size needed to be 29 students with the bet being 2:1 to get Dr. J earnings to be zero.
+
+
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
-
-
-
-
-
-
 
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
+<!--Discussion and conclusion here.  If professor Brownlow is consistently making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
