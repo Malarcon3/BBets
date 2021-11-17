@@ -38,7 +38,7 @@ for(i in c(1:1000)){
 hist(money)
 ```
 
-Brownlows profits are from 200 to 340.
+Brownlows profits are from 200 to 350.
 
 ```{r}
 moneysorted=sort(money)
@@ -79,7 +79,6 @@ print(sd(money))
 
 mean is 279.55
 standard deviation is 30.41672
-average is 
 
 ```{r}
 hist(money)
@@ -132,3 +131,4 @@ I started at the class size value of 35 which was too high. I then tried using t
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistently making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+At the beginning Dr. J was making about $280 with class size of 35 with 2:1 odds when guessing that there would be at least two students in the same class with the same birthday. When changing the odds from 2:1 to 4.5:1 I was able to get his earnings closer to zero. When changing the class size value to 29 with the odds of 2:1 the same was true by getting similar results getting his earnings closer to zero. 
